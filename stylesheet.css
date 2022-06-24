@@ -1,0 +1,30 @@
+
+body{
+    background-color:rgba(119, 135, 162, 0.107);
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    /*margin é top,right,bottom,left*/
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    line-height: 1.6;
+     
+}
+#expProgramacao{
+    text-align: justify;
+    padding-right: 150px;    
+}
+span #expProgramacao{
+    text-align: center;
+}
+
+#contato li
+{
+    list-style:none;
+    margin-left: -2%;
+    line-height: 1.6;    
+}
