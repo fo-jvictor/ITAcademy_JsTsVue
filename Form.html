@@ -4,20 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-        <h1>Form Demo!</h1>
-        <form id="contact" method="post" action="">
-        <label for="firstName">First Name</label>
-        <input type="text" name="firstName" placeholder="First Name"/><br/>
-        <label for="lastName">Last Name</label>
-        <input type="text" name="lastName" placeholder="Last Name"/><br/>
-        <label for="email">Email</label>
-        <input type="email" name="email" placeholder="Email Address"/><br/>
-        <label for="password">Password</label>
-        <input type="password" name="password" placeholder="Password"/><br/>
-        <input type="submit" name="submit" value="submit">
-        </form>   
+    <div class="text-center">
+        <h1 class="mt-2">Pagina de cadastro</h1>
+        <form id="contact" style="max-width:500px;margin:auto;">
+
+        <label for="Nome">Nome:</label><br>
+        <input type="text" class="form-control"name="Nome" placeholder="Insira seu nome"/><br/> 
+
+        <label for="email">Email:</label><br>
+        <input type="email" class="form-control" name="email" placeholder="Insira seu email"/><br/>
+
+        <label for="emailConfirm">Confirme o email:</label><br>
+        <input type="email" class="form-control" name="emailConfirm" placeholder="Confirme seu email"/><br/>
+        
+        <label for="dataNascimento">Data de nascimento:</label><br>
+        <input type="text" class="form-control" name="dataNascimento" placeholder="Informe sua data de Nascimento"/><br/>
+
+        <label for="Cpf">CPF:</label><br>
+        <input type="text" class="form-control" name="Cpf" placeholder="Insira seu CPF"/><br/>        
+
+        <label for="password">Defina uma senha:</label><br>
+        <input type="password" class="form-control" name="password" placeholder="Defina uma senha"/><br/>
+
+        <label for="passwordConfirm">Confirme a senha:</label><br>
+        <input type="password" class="form-control" name="passwordConfirm" placeholder="Confirme a senha"/><br/>
+        <div class="mb-5">
+            <button type="button" class="btn btn-lg btn-outline-success">Cadastrar</button>
+        </div>
+        
+        </form>
+    </div>   
 </body>
 </html>
